@@ -1,3 +1,4 @@
+@import url(habitry.css);
 @import url(video.css);
 @import url(font-awesome.min.css);
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600|Raleway:500,700,800");
@@ -1630,7 +1631,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-family: "Raleway", Helvetica, sans-serif;
+		font-family: "Lato", Helvetica, sans-serif;
 		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 1.5em 0;
@@ -1831,7 +1832,7 @@
 		border-radius: 0;
 		cursor: pointer;
 		display: inline-block;
-		font-family: "Raleway", Helvetica, sans-serif;
+		font-family: "Lato", Helvetica, sans-serif;
 		font-weight: 700;
 		height: 2.75em;
 		line-height: 2.75em;
@@ -2050,7 +2051,7 @@
 		margin: 0 0 0.5em 0;
 		text-transform: uppercase;
 		font-size: 0.9em;
-		font-family: "Raleway", Helvetica, sans-serif;
+		font-family: "Lato", Helvetica, sans-serif;
 		font-weight: 700;
 	}
 
@@ -2897,7 +2898,7 @@
 			text-align: left;
 			text-transform: uppercase;
 			font-size: 0.9em;
-			font-family: "Raleway", Helvetica, sans-serif;
+			font-family: "Lato", Helvetica, sans-serif;
 			font-weight: 700;
 		}
 
@@ -3677,7 +3678,7 @@
 	#header {
 		background-color: #fff;
 		box-shadow: 0 0 0.125em 0 rgba(0, 0, 0, 0.35);
-		font-family: "Raleway", Helvetica, sans-serif;
+		font-family: "Lato", Helvetica, sans-serif;
 		font-weight: 500;
 		height: 3.5em;
 		left: 0;
@@ -3800,7 +3801,7 @@
 
 		#header.alt {
 			background-color: #444;
-			color: #fff;
+			color: #333333;
 			-moz-animation: none;
 			-webkit-animation: none;
 			-ms-animation: none;
@@ -3818,8 +3819,8 @@
 			#header.alt button,
 			#header.alt .button {
 				background-color: transparent;
-				color: #fff !important;
-				box-shadow: inset 0 0 0 1px #fff;
+				color: #d4af37 !important;
+				box-shadow: inset 0 0 0 1px #d4af37;				
 			}
 
 				#header.alt input[type="submit"]:hover,
@@ -3827,7 +3828,9 @@
 				#header.alt input[type="button"]:hover,
 				#header.alt button:hover,
 				#header.alt .button:hover {
-					background-color: rgba(255, 255, 255, 0.075);
+					background-color: #d4af37;
+					color: #ffffff !important;
+					box-shadow: inset 0 0 0 1px #d4af37;
 				}
 
 				#header.alt input[type="submit"]:active,
@@ -3849,19 +3852,19 @@
 				}
 
 			#header.alt input, #header.alt select, #header.alt textarea {
-				color: #fff;
+				color: #333333;
 			}
 
 			#header.alt a {
-				color: #fff;
+				color: #333333;
 			}
 
 			#header.alt strong, #header.alt b {
-				color: #fff;
+				color: #333333;
 			}
 
 			#header.alt h1, #header.alt h2, #header.alt h3, #header.alt h4, #header.alt h5, #header.alt h6 {
-				color: #fff;
+				color: #333333;
 			}
 
 			#header.alt blockquote {
@@ -3942,7 +3945,7 @@
 		min-width: 13em;
 		padding: 0.75em;
 		margin-top: -0.5em;
-		font-family: "Raleway", Helvetica, sans-serif;
+		font-family: "Lato", Helvetica, sans-serif;
 		font-weight: 500;
 		text-transform: uppercase;
 		box-shadow: 0 0 0.125em 0 rgba(0, 0, 0, 0.35);
@@ -3985,27 +3988,27 @@
 /* Banner */
 
 	#banner {
-		background-color: #444;
-		color: #fff;
+		background-color: #ffffff;
+		color: #333333;
 		min-height: 40em;
-		height: 75vh;
+		height: 100vh;
 		position: relative;
 	}
 
 		#banner input, #banner select, #banner textarea {
-			color: #fff;
+			color: #333333;
 		}
 
 		#banner a {
-			color: #fff;
+			color: #333333;
 		}
 
 		#banner strong, #banner b {
-			color: #fff;
+			color: #333333;
 		}
 
 		#banner h1, #banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
-			color: #fff;
+			color: #333333;
 		}
 
 		#banner blockquote {
@@ -4119,8 +4122,8 @@
 				position: absolute;
 				top: 0;
 				left: 0;
-				background: #000;
-				opacity: 0.35;
+				background: #fff;
+				opacity: 0.92;
 			}
 
 			#banner > article .inner {
@@ -4135,7 +4138,7 @@
 				}
 
 			#banner > article h2 {
-				font-weight: 800;
+				font-weight: 300;
 				font-size: 2.75em;
 				padding-bottom: 0;
 				margin: 0 0 0.5em 0;
@@ -4332,7 +4335,7 @@
 		visibility: hidden;
 		width: 20em;
 		z-index: 10002;
-		font-family: "Raleway", Helvetica, sans-serif;
+		font-family: "Lato", Helvetica, sans-serif;
 		font-weight: 500;
 		text-transform: uppercase;
 	}
